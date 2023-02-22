@@ -1,0 +1,39 @@
+.product__container{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.product__name{
+    width: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+button{
+    cursor: pointer;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    
+    font-size: 1.2rem;
+}
+.increment{
+    background-color: blue;
+    color: white;
+}
+.decrement{
+    background-color: red;
+    color: white;
+}
+.product__count{
+    width: 50px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
